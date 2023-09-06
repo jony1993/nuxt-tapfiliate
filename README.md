@@ -3,13 +3,9 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Integration Tapfiliate.js into your nuxt 3 app
+Nuxt 3 Module to integrate Tapfiliate.js into your Nuxt 3 app
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-
-## Features
-
-Setup Tapfiliate Script within your nuxt 3 App
 
 ## Quick Setup
 
@@ -36,7 +32,7 @@ export default defineNuxtConfig({
 })
 ```
 
-Add tapfiliate accountId to your config
+Then, you must add the accountId to the module options:
 
 ```
 tapfiliate: {
@@ -45,6 +41,9 @@ tapfiliate: {
 ```
 
 That's it! You can now use Nuxt Tapfiliate in your Nuxt app ✨
+
+You can easily check that the script is correctly injected by inspecting your page on your browser. Note that nothing is injected if the accountID is missing!
+Also make sure that tracking is working correctly by doing manual tests.
 
 ## Development
 
