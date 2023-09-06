@@ -17,8 +17,6 @@ export default defineNuxtModule<ModuleOptions>({
     name: 'nuxt-tapfiliate',
     configKey: 'tapfiliate'
   },
-  // Default configuration options of the Nuxt module
-  defaults: {},
   setup (options, nuxt) {
     const resolver = createResolver(import.meta.url)
 
