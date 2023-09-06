@@ -1,5 +1,7 @@
 # Nuxt Tapfiliate
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
@@ -70,3 +72,18 @@ npm run test:watch
 # Release new version
 npm run release
 ```
+
+## License
+
+[MIT License](./LICENSE)
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-tapfiliate/latest.svg
+[npm-version-href]: https://npmjs.com/package/nuxt-tapfiliate
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-tapfiliate.svg
+[npm-downloads-href]: https://npmjs.com/package/nuxt-tapfiliate
+[license-src]: https://img.shields.io/npm/l/nuxt-tapfiliate.svg
+[license-href]: https://npmjs.com/package/nuxt-tapfiliate
+[nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
+[nuxt-href]: https://nuxt.com
