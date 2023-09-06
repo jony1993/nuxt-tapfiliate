@@ -70,4 +70,3 @@ npm run test:watch
 # Release new version
 npm run release
 ```
-
