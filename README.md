@@ -1,20 +1,9 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: Nuxt Tapfiliate
-- Package name: nuxt-tapfiliate
-- Description: My new Nuxt module
--->
-
 # Nuxt Tapfiliate
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+Integration Tapfiliate.js into your nuxt 3 app
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 
