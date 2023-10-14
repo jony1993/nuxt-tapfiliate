@@ -9,7 +9,5 @@ import { useNuxtApp } from '#imports'
 export function useTapfiliateTrialEvent(
   customer_id: string
 ) {
-  if (process.client) {
     useNuxtApp().$tapfiliate.trial(customer_id)
-  }
 }

@@ -9,10 +9,8 @@ import { useNuxtApp } from '#imports'
 export function useTapfiliateConversionEvent(
   charge_id: string,
   amount: number,
-  customer_id: string,
+  customer_id: {},
   commission_id: string
 ) {
-  if (process.client) {
     useNuxtApp().$tapfiliate.conversion(charge_id, amount, { customer_id }, commission_id)
-  }
 }
